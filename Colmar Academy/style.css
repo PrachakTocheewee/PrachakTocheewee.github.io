@@ -32,6 +32,9 @@ div .navbar{
     display: inline;
     font-size: 32px;
 }
+.navbar-mobile{
+    display:none;
+}
 
 /*banner*/
 
@@ -183,4 +186,34 @@ div .navbar{
 }
 #course-container .col p{
     margin-bottom: 24px;
+}
+
+/*thesis exibit*/
+
+#thesis-container{
+    margin: 32px 0px;
+    background-color:rgb(169, 169, 169) ;
+}
+
+#thesis-container video{
+    margin-left: 24px;
+    width:60%;
+}
+
+#thesis-container h1{
+    text-align: left;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+#thesis-container p{
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+/*footer*/
+footer {
+    margin-top: 16px;
+    margin-bottom: 32px;
 }

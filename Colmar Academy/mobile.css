@@ -1,7 +1,26 @@
 @media screen and (maxwidth: 768px) {
+    /*navbar*/
+    .navbar{
+        display:none;
+    }
+    
+    .navbar-mobile{
+        height: 64px;
+    }
+    
+    .navbar-mobile img{
+        display:inline;
+        margin-left: 24px;
+        margin-top: 20px;
+        height: 32px;
+    }
+    }
+
+    /*baner*/
     #baner container{
         font-size: 24px;
     }
+    
     #banner-container img{
         width: 100%;
     }
