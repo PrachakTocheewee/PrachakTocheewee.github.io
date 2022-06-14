@@ -1,0 +1,42 @@
+/*html{
+    height: 100;
+    width: 100;
+    margin:0;
+    padding:0;
+    box-sizing:border-box ;
+  }*/
+*{
+    margin: 0%;
+}
+body{
+    font-family: sans-serif;
+}
+#banner-contianer{
+    display:flex;
+    align-items:center;
+    padding: 32px 24px;
+    background-color: beige;
+}
+
+#baner-container img{
+    width:60%;
+}
+
+#banner-contianer #banner-text{
+    display: flex;
+    flex-direction: column;
+    margin-left:24px;
+}
+
+#banner-contianer #banner-text p{
+
+    margin-top:24px;
+}
+
+#banner-contianer #banner-text buttom{
+    color: white;
+    background-color: blanchedalmond;
+    border: unset;
+    padding:8px 0px;
+    margin-top: 24px;;
+}
