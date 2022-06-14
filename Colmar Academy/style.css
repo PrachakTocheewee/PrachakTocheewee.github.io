@@ -16,7 +16,14 @@ div .navbar{
 .navbar img{
     display:inline;
     margin-left: 24px;
+    margin-top: 20px;
     height: 32px;
+}
+
+.navbar a{
+    display: inline;
+    font-size: 24px;
+    margin: 8px;
 }
 
 .navbar p{
@@ -31,7 +38,7 @@ div .navbar{
     background-color: rgb(216, 216, 216);
 }
 
-#baner-container img{
+#baner-container-1 img{
     width:60%;
 }
 
