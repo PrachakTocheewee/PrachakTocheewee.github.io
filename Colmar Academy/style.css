@@ -143,3 +143,17 @@ div .navbar{
 #information-container-aside #information-guest-lecture-img #img-mobile{
     display:none;
 }
+
+/*coures*/
+
+#course-container{
+    margin: 32px 72px;
+}
+#course-container h1{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top:0px;
+    margin-bottom: 32px;
+    color: rgb(71, 71, 71);
+}
