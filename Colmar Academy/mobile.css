@@ -14,7 +14,6 @@
         margin-top: 20px;
         height: 32px;
     }
-    }
 
     /*baner*/
     #baner container{
@@ -42,5 +41,125 @@
         background-color: d8d8d8;
         font-size: 24px;
     }
-    
+   
+   /*information*/
+
+   #information-container{
+    display:none;
+
+}
+
+#information-container-aside {
+    display: flex;
+    width: 40%;
+}
+
+#information-container-aside #information-orientation-text,
+#information-campus-text,#information-guset-lecture-text{
+    width: 65;
+    margin: 8px 0px;
+}
+
+#information-container-aside #information-orientation-img #img-desktop{
+    width: 35%;
+    height: auto;
+    margin:16px 16px;
+}
+
+#information-container-aside #information-orientation-img #img-mobile{
+    display:none;
+}
+
+#information-container-aside #information-campus-img #img-desktop{
+    width: 35%;
+    height: auto;
+    margin:16px 16px;
+}
+
+#information-container-aside #information-campus-img #img-mobile{
+    display:none;
+}
+
+#information-container-aside #information-guest-lecture-img #img-desktop{
+    width: 35%;
+    height: auto;
+    margin:16px 16px;
+}
+
+#information-container-aside #information-guest-lecture-img #img-mobile{
+    display:none;
+}
+
+
+/*coures*/
+
+#course-container{
+    margin: 32px 0;
+    background-color:rgb(169, 169, 169) ;
+}
+
+#course-container h1{
+    max-width: 300px;
+   /* display: flex;
+    flex-direction: column;*/
+    margin-top:0px;
+    margin-bottom: 32px;
+    color: rgb(71, 71, 71);
+    text-align: right;
+}
+
+#course-container .col{
+    text-align: left;
+    display: inline-block;
+    height: auto;
+    background-color: white;
+    margin: 16px 16px;
+
+}
+
+#course-container .col h2,h3,p{
+    margin-left: 16px;
+}
+
+#course-container .col h2{
+    margin-top: 16px;
+}
+
+#course-container .col h2,h3{
+    margin-bottom: 8px;
+}
+#course-container .col p{
+    margin-bottom: 24px;
+}
+
+/*thesis exibit*/
+
+#thesis-container{
+    margin: 32px 0px;
+    background-color:rgb(169, 169, 169) ;
+}
+
+#thesis-container video{
+    margin-left: 24px;
+    width:60%;
+}
+
+#thesis-container h1{
+    text-align: left;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+#thesis-container p{
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+/*footer*/
+footer {
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
 }

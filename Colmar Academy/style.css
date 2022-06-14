@@ -212,6 +212,22 @@ div .navbar{
     margin-bottom: 32px;
 }
 
+#thesis-aside-1-text{
+    background-color:rgb(169, 169, 169);
+}
+
+#thesis-aside-1 img{
+    margin: 16px 16px;
+    width: 35%;
+    height: auto;
+}
+
+#thesis-aside-2 img{
+    margin: 16px 16px;
+    width: 35%;
+    height: auto;
+}
+
 /*footer*/
 footer {
     margin-top: 16px;
