@@ -2,14 +2,15 @@
     #baner container{
         font-size: 24px;
     }
-    #banner container img{
+    #banner-container img{
         width: 100%;
     }
-    #baner container{
+    #baner-container{
         padding: 0px;
         flex-direction: column;
     }
     #banner-contianer #banner-text{
+        max-width: unset;
         margin-left:0px;
         padding: 32px 16px 0px;
     }
@@ -19,7 +20,7 @@
     }
     
     #banner-contianer #banner-text buttom{
-        background-color: blanchedalmond;
+        background-color: d8d8d8;
         font-size: 24px;
     }
     
