@@ -9,6 +9,8 @@ body{
     margin: auto;
 }
 
+/*navbar*/
+
 div .navbar{
     height: 64px;
 }
@@ -30,6 +32,8 @@ div .navbar{
     display: inline;
     font-size: 32px;
 }
+
+/*banner*/
 
 #banner-contianer{
     display:flex;
@@ -67,6 +71,8 @@ div .navbar{
     margin-top: 24px;;
 }
 
+/*information*/
+
 #information-container{
     display:flex;
     align-items:center;
@@ -92,6 +98,48 @@ div .navbar{
     margin-top: 24px;
     margin-bottom: 40px;
 }
+
 #information-container #information-text bottom{
     margin-top: 32px;
+}
+
+#information-container-aside {
+    display: flex;
+    width: 40%;
+}
+
+#information-container-aside #information-orientation-text,
+#information-campus-text,#information-guset-lecture-text{
+    width: 65;
+    margin: 8px 0px;
+}
+
+#information-container-aside #information-orientation-img #img-desktop{
+    width: 35%;
+    height: auto;
+    margin:16px 16px;
+}
+
+#information-container-aside #information-orientation-img #img-mobile{
+    display:none;
+}
+
+#information-container-aside #information-campus-img #img-desktop{
+    width: 35%;
+    height: auto;
+    margin:16px 16px;
+}
+
+#information-container-aside #information-campus-img #img-mobile{
+    display:none;
+}
+
+#information-container-aside #information-guest-lecture-img #img-desktop{
+    width: 35%;
+    height: auto;
+    margin:16px 16px;
+}
+
+#information-container-aside #information-guest-lecture-img #img-mobile{
+    display:none;
 }
